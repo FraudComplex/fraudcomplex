@@ -4,6 +4,28 @@
 
 body {
   background-color: #040420;
-  color: #c01010;
+  color: #d63605;
   font-family: Garamond;
+}
+#header {
+  display: flex;
+  align-self: flex-start;
+  justify-content: center;
+}
+
+#main {
+  display: flex;
+  justify-content: center;
+}
+
+#footer {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+#sidebar {
+  display: flex;
+  justify-content: flex-start;
+  align-self: center;
 }
