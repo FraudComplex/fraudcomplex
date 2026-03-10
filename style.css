@@ -2,30 +2,51 @@
    HTML content. To learn how to do something, just try searching Google for questions like
    "how to change link color." */
 
+
 body {
-  background-color: #040420;
-  color: #d63605;
   font-family: Garamond;
-}
-#header {
   display: flex;
-  align-self: flex-start;
-  justify-content: center;
+  flex-flow: column;
+  justify-content: space-between;
 }
 
-#main {
+.container{
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 
-#footer {
-  display: flex;
-  justify-content: center;
+.header {
+  color: #d63605;
+  text-shadow:2px 2px 2px #040420;
   align-self: center;
+  padding: 2%;
 }
 
-#sidebar {
-  display: flex;
+.sidebar {
+  background-color: #506266b0;
+  flex-wrap: wrap;
   justify-content: flex-start;
+  padding: 2%;
+  border: 4px groove #d63605;
+  border-radius: 8px;
+}
+
+.main {
+  background-color: #d6360590;
+  color: black;
+  text-shadow:2px 2px 2px #040420;
+  justify-content: center;
+  font-size: 24px;
+  padding: 2%;
+  border: 4px groove #d63605;
+  border-radius: 8px;
+}
+
+.footer {
+  color: #d63605;
+  text-shadow:2px 2px 2px #040420;
   align-self: center;
+  justify-self: flex-end;
+  padding-top: 2%;
+  max-height: 5%;
 }
