@@ -25,9 +25,9 @@ iframe {
 
 .header {
   color: #d63605;
-  text-shadow:2px 2px 2px #040420;
+  text-shadow:-2px 2px 1px #040420;
   align-self: center;
-  margin: 20px;
+  margin: 15px;
 }
 
 .sidebar {
@@ -74,6 +74,10 @@ iframe {
   max-height: 5%;
 }
 
+.aboutme {
+  display: flex;
+}
+
 nav a:link {
   color: white;
 }
@@ -85,6 +89,12 @@ nav a:link, nav a:visited {
 nav a:hover, nav a:focus {
   color:#A89F68;
   font-style: italic;
+}
+
+h1 {
+  color: #d63605;
+  text-align: center;
+  text-shadow:-2px 2px 1px #040420;
 }
 
 h3 {
